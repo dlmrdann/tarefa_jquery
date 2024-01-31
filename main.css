@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    background-color: #ffecd1;
+}
+
+h1 {
+    background-color: #ffecd1;
+    padding: 16px 0px;
+    color: #504e4e;
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    font-family: Roboto, sans-serif;
+    font-size: medium;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    padding-top: 16px;
+    color: #7D7B7B;
+}
+
+header button {
+    margin-left: 16px;
+}
+
+form {
+    padding: 24px 0px;
+    text-align: center;
+}
+
+input, button {
+    padding: 8px;
+}
+
+button {
+    background-color: green;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    color: #fff;
+}
+
+.container form {
+    margin-bottom: 42px;
+}
+
+.container #adicionar {
+    font-size: 12px;
+    transition: all;
+    height: 36px;
+    width: 86px;
+    border-radius: 22px;
+
+}
+
+.container #adicionar:hover {
+    cursor: pointer;
+    background-color: rgba(0, 128, 0, 0.688);
+}
+
+.container #cancelar {
+    font-size: 12px;
+    transition: all;
+    height: 36px;
+    width: 86px;
+    border-radius: 22px;
+    background-color: red;
+    
+}
+
+.container #cancelar:hover {
+    cursor: pointer;
+    background-color: rgba(255, 0, 0, 0.688);
+}
+
+.container #novo {
+    background-color: green;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 42px;
+    height: 36px;
+    width: 126px;
+    border-radius: 22px;
+}
+
+.container #novo:hover {
+    background-color: rgba(0, 128, 0, 0.777);
+    cursor: pointer;
+}
+
+.container .nova-tarefa {
+    display: none;
+}
+
+.container ul {
+    max-width: 350px;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.container li {
+    display: block;
+    border: 1px solid black;
+    margin-bottom: 8px;
+    padding: 12px;
+    cursor: pointer;
+    transition: all .30s ease;
+}
+
+.container li:hover {
+    border: 1px solid;
+    background-color: rgb(215, 165, 217);
+}
+
+.remover-tarefa {
+    text-decoration: line-through;
+    color: #7D7B7B;
+}
